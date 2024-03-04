@@ -1,0 +1,18 @@
+.menu-bar {
+    background-color: black;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    column-gap: 10px;
+}
+
+.button {
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.menu-bar button:hover{
+    background-color:wheat;
+}
